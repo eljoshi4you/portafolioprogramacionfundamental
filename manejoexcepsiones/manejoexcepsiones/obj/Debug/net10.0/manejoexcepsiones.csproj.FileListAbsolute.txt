@@ -1,0 +1,16 @@
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\bin\Debug\net10.0\manejoexcepsiones.exe
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\bin\Debug\net10.0\manejoexcepsiones.deps.json
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\bin\Debug\net10.0\manejoexcepsiones.runtimeconfig.json
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\bin\Debug\net10.0\manejoexcepsiones.dll
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\bin\Debug\net10.0\manejoexcepsiones.pdb
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.AssemblyInfoInputs.cache
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.AssemblyInfo.cs
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.csproj.CoreCompileInputs.cache
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.sourcelink.json
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.dll
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\refint\manejoexcepsiones.dll
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.pdb
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoexcepsiones.genruntimeconfig.cache
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\ref\manejoexcepsiones.dll
+C:\Users\UNIFRANZ-FEXCO\Documents\Programacion Fundamental\portafolioprogramacionfundamental\manejoexcepsiones\manejoexcepsiones\obj\Debug\net10.0\manejoex.A9407F8B.Up2Date
