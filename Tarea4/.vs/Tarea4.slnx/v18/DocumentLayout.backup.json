@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82758C34-E29C-41E3-8FF0-DAD436703DD0}|Tarea4\\Tarea4.csproj|c:\\users\\user\\documents\\primer repositorio\\portafolioprogramacionfundamental\\tarea4\\tarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82758C34-E29C-41E3-8FF0-DAD436703DD0}|Tarea4\\Tarea4.csproj|solutionrelative:tarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4918D10E-E868-6A55-DF24-2EB87E2F77ED}|Tarea4\\Tarea4.csproj|c:\\users\\user\\documents\\primer repositorio\\portafolioprogramacionfundamental\\tarea4\\tarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4918D10E-E868-6A55-DF24-2EB87E2F77ED}|Tarea4\\Tarea4.csproj|solutionrelative:tarea4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea4\\Tarea4\\Program.cs",
               "RelativeDocumentMoniker": "Tarea4\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea4\\Tarea4\\Program.cs",
-              "RelativeToolTip": "Tarea4\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea4\\Tarea4\\Program.cs*",
+              "RelativeToolTip": "Tarea4\\Program.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T19:38:36.691Z",
               "EditorCaption": ""

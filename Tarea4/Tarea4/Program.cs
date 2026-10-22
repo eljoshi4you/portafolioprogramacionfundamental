@@ -71,13 +71,40 @@ class Program
  // Ejercicio 2: Consulta segura de notas
     static void Ejercicio2()
     {
-        // escribe aqui tu codigo
+        
+        {
+            
+            int[] notas = { 70, 85, 90, 60, 100 };
+
+            try
+            {
+               
+                int posicion = int.Parse(Console.ReadLine());
+
+                int nota = notas[posicion - 1];
+
+                Console.WriteLine($"Nota del estudiante {posicion}: {nota}");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Error: debes escribir un numero");
+            }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("Error: el estudiante debe estar entre 1 y 5");
+            }
+            finally
+            {
+                // Al final, siempre se ejecuta este bloque
+                Console.WriteLine("Consulta terminada");
+            }
+        }
     }
 
-    // Ejercicio 3: Cola de atencion en el consultorio
-    static void Ejercicio3()
+// Ejercicio 3: Cola de atencion en el consultorio
+static void Ejercicio3()
     {
-        // escribe aqui tu codigo
+        
     }
 
     // Ejercicio 4: Registro de edad
