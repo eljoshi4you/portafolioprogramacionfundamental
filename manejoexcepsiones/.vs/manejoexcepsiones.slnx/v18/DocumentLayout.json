@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15354AEB-628E-47C7-A34C-A5C22B1503F6}|manejoexcepsiones\\manejoexcepsiones.csproj|c:\\users\\unifranz-fexco\\documents\\programacion fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15354AEB-628E-47C7-A34C-A5C22B1503F6}|manejoexcepsiones\\manejoexcepsiones.csproj|solutionrelative:manejoexcepsiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0037C027-8658-5751-69A1-1BC2EDF53B98}|manejoexcepsiones\\manejoexcepsiones.csproj|c:\\users\\user\\documents\\primer repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0037C027-8658-5751-69A1-1BC2EDF53B98}|manejoexcepsiones\\manejoexcepsiones.csproj|solutionrelative:manejoexcepsiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\Program.cs",
               "RelativeDocumentMoniker": "manejoexcepsiones\\Program.cs",
-              "ToolTip": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\Program.cs",
               "RelativeToolTip": "manejoexcepsiones\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

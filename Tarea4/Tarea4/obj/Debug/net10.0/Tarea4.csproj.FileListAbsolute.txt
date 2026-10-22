@@ -1,0 +1,17 @@
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.exe
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.deps.json
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.runtimeconfig.json
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.runtimeconfig.dev.json
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.dll
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\bin\Debug\net10.0\Tarea4.pdb
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.AssemblyInfo.cs
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.sourcelink.json
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.dll
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\refint\Tarea4.dll
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.pdb
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.genruntimeconfig.cache
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\ref\Tarea4.dll
+C:\Users\user\Documents\Primer Repositorio\portafolioprogramacionfundamental\Tarea4\Tarea4\obj\Debug\net10.0\Tarea4.csproj.Up2Date

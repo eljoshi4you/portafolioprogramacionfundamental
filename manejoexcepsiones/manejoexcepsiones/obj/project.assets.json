@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\UNIFRANZ-FEXCO\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\manejoexcepsiones.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\manejoexcepsiones.csproj",
       "projectName": "manejoexcepsiones",
-      "projectPath": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\manejoexcepsiones.csproj",
-      "packagesPath": "C:\\Users\\UNIFRANZ-FEXCO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UNIFRANZ-FEXCO\\Documents\\Programacion Fundamental\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\manejoexcepsiones.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\manejoexcepsiones\\manejoexcepsiones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\UNIFRANZ-FEXCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "11.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.2.26504.105/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
