@@ -150,9 +150,35 @@ static void Ejercicio3()
 // Ejercicio 4: Registro de edad
 static void Ejercicio4()
     {
-        // escribe aqui tu codigo
-    }
+        try
+        {
+           
+            int edad = int.Parse(Console.ReadLine());
 
+            if (edad >= 0 && edad <= 120)
+            {
+                Console.WriteLine($"Edad registrada: {edad}");
+            }
+            else
+            {
+                Console.WriteLine("Error: la edad debe estar entre 0 y 120");
+            }
+        }
+        catch (FormatException)
+        {
+           
+            Console.WriteLine("Error: la edad debe ser un numero entero");
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Error: el numero es demasiado grande");
+        }
+        finally
+        {
+            Console.WriteLine("Registro procesado");
+        }
+   
+    }
 }
 
 
