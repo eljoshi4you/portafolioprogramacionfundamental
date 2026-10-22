@@ -103,15 +103,56 @@ class Program
 
 // Ejercicio 3: Cola de atencion en el consultorio
 static void Ejercicio3()
-    {
-        
-    }
+        {
+            
+            Queue<string> cola = new Queue<string>();
+            int atendidos = 0;
+            int intentados = 0;
 
-    // Ejercicio 4: Registro de edad
-    static void Ejercicio4()
+            
+            int n = int.Parse(Console.ReadLine());
+
+            
+            for (int i = 0; i < n; i++)
+            {
+                string nombrePaciente = Console.ReadLine();
+                cola.Enqueue(nombrePaciente);
+            }
+
+            
+            int turnos = int.Parse(Console.ReadLine());
+
+            for (int t = 1; t <= turnos; t++)
+            {
+                try
+                {
+                    
+                    string paciente = cola.Dequeue();
+                    Console.WriteLine($"Turno {t}: atendiendo a {paciente}");
+                    atendidos++; 
+                }
+                catch (InvalidOperationException)
+                {
+                    
+                    Console.WriteLine($"Turno {t}: no hay pacientes en espera");
+                }
+                finally
+                {
+                    
+                    intentados++;
+                }
+            }
+
+            Console.WriteLine($"Atendidos: {atendidos} de {intentados} turnos");
+        }
+    
+
+// Ejercicio 4: Registro de edad
+static void Ejercicio4()
     {
         // escribe aqui tu codigo
     }
+
 }
 
 
