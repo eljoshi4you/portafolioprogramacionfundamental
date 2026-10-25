@@ -151,7 +151,55 @@ class Program
 
     static void Ejercicio3()
     {
-        // escribe aqui tu codigo
+
+        Stack<int> resultados = new Stack<int>();
+        int opcionSubmenu;
+
+        do
+        {
+            Console.WriteLine("1. Sumar 2. Ver ultimo resultado 3. Borrar ultimo 4. Salir");
+            opcionSubmenu = Validador.LeerEntero("Elige una opcion: ", 1, 4);
+
+            switch (opcionSubmenu)
+            {
+                case 1: 
+                    int a = Validador.LeerEntero("", -1000, 1000);
+                    int b = Validador.LeerEntero("", -1000, 1000);
+                    int r = a + b;
+
+                    Console.WriteLine($"{a} + {b} = {r}");
+                    resultados.Push(r); 
+                    break;
+
+                case 2: 
+                    if (resultados.Count > 0)
+                    {
+                        Console.WriteLine($"Ultimo resultado: {resultados.Peek()}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No hay resultados");
+                    }
+                    break;
+
+                case 3: 
+                    if (resultados.Count > 0)
+                    {
+                        int borrado = resultados.Pop();
+                        Console.WriteLine($"Se borro: {borrado}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No hay resultados para borrar");
+                    }
+                    break;
+
+                case 4: 
+                    Console.WriteLine($"Resultados guardados: {resultados.Count}");
+                    break;
+            }
+
+        } while (opcionSubmenu != 4);
     }
 
     // Ejercicio 4: Fila de la cafeteria
