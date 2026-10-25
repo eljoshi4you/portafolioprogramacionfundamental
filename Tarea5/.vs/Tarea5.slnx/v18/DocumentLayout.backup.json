@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F18B757-0EAF-4BC2-8B95-7FBB830980C4}|Tarea5.csproj|c:\\users\\user\\documents\\primer repositorio\\portafolioprogramacionfundamental\\tarea5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F18B757-0EAF-4BC2-8B95-7FBB830980C4}|Tarea5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Primer Repositorio\\portafolioprogramacionfundamental\\Tarea5\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T21:59:33.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
