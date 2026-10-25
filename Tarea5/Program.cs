@@ -32,6 +32,24 @@ static class Validador
             Console.WriteLine("El texto no puede estar vacio");
         }
     }
+    public static bool LeerSiNo(string mensaje)
+    {
+        while (true)
+        {
+            Console.Write(mensaje);
+            string texto = Console.ReadLine().Trim().ToLower();
+            if (texto == "s")
+            {
+                return true;
+            }
+            if (texto == "n")
+            {
+                return false;
+            }
+            Console.WriteLine("Responde solo s o n");
+        }
+    }
+
 }
 
 
@@ -104,10 +122,33 @@ class Program
     // Ejercicio 2: Carrito de compras
     static void Ejercicio2()
     {
-        // escribe aqui tu codigo
+        int total = 0;
+        int productos = 0;
+        bool otro;
+
+        do
+        {
+            
+            string nombre = Validador.LeerTexto("");
+            int precio = Validador.LeerEntero("", 1, 1000);
+            int cantidad = Validador.LeerEntero("", 1, 50);
+
+            int subtotal = precio * cantidad;
+
+            Console.WriteLine($"{nombre}: {cantidad} x {precio} = {subtotal} Bs");
+
+            total += subtotal;
+            productos++;
+            
+            otro = Validador.LeerSiNo("Agregar otro producto? (s/n) ");
+
+        } while (otro);
+
+        Console.WriteLine($"Productos distintos: {productos}");
+        Console.WriteLine($"Total a pagar: {total} Bs");
     }
 
-    // Ejercicio 3: Calculadora con historial
+
     static void Ejercicio3()
     {
         // escribe aqui tu codigo
