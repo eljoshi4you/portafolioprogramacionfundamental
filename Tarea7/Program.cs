@@ -114,7 +114,7 @@ class Videojuego
     public Videojuego(string titulo, int precio, int stock)
     {
         this.titulo = titulo;
-        Precio = precio; // Usa la propiedad para validar
+        Precio = precio; 
         this.stock = stock;
     }
 
@@ -133,7 +133,7 @@ class Videojuego
         get { return precio; }
         set
         {
-            // Validación requerida por el ejercicio 4
+
             if (value < 0) throw new ArgumentOutOfRangeException("El precio no puede ser negativo");
             precio = value;
         }
@@ -171,7 +171,7 @@ class Program
         {
             Console.WriteLine();
             Console.WriteLine("===== TAREA 7: CLASES Y ARCHIVOS =====");
-            Console.WriteLine("Estudiante: Tu Nombre Completo");
+            Console.WriteLine("Estudiante: Josias Gabriel Vargas Merida");
             Console.WriteLine("1. Cuenta bancaria");
             Console.WriteLine("2. Prestamo de libros");
             Console.WriteLine("3. Agenda de contactos con archivo");
@@ -223,7 +223,49 @@ class Program
     // Ejercicio 2: Prestamo de libros
     static void Ejercicio2()
     {
-        // escribe aqui tu codigo
+        List<Libro> biblioteca = new List<Libro>();
+        biblioteca.Add(new Libro("El Principito"));
+        biblioteca.Add(new Libro("Don Quijote"));
+        biblioteca.Add(new Libro("Rayuela"));
+
+        for (int i = 0; i < 2; i++)
+        {
+            Console.Write("Ingrese el titulo del libro " + (i + 1) + ": ");
+            string buscado = Console.ReadLine();
+
+            Libro encontrado = null;
+            foreach (Libro l in biblioteca)
+            {
+                if (l.Titulo.ToLower() == buscado.ToLower())
+                {
+                    encontrado = l;
+                    break;
+                }
+            }
+
+            if (encontrado == null)
+            {
+                Console.WriteLine("No existe el libro " + buscado);
+            }
+            else
+            {
+                if (encontrado.Prestar())
+                {
+                    Console.WriteLine("Prestado: " + encontrado.Titulo);
+                }
+                else
+                {
+                    Console.WriteLine(encontrado.Titulo + " ya esta prestado");
+                }
+            }
+        }
+
+        Console.WriteLine("Estado de la biblioteca:");
+        foreach (Libro l in biblioteca)
+        {
+            string estado = l.Disponible ? "Disponible" : "Prestado";
+            Console.WriteLine(l.Titulo + " - " + estado);
+        }
     }
 
     // Ejercicio 3: Agenda de contactos con archivo
