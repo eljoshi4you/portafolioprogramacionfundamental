@@ -205,7 +205,48 @@ class Program
     // Ejercicio 4: Fila de la cafeteria
     static void Ejercicio4()
     {
-        // escribe aqui tu codigo
+        Queue<string> fila = new Queue<string>();
+        int fichas = 0;
+        int atendidos = 0;
+        int opcionSubmenu;
+
+        do
+        {
+            Console.WriteLine("1. Sacar ficha 2. Atender 3. Ver fila 4. Salir");
+            opcionSubmenu = Validador.LeerEntero("Elige una opcion: ", 1, 4);
+
+            switch (opcionSubmenu)
+            {
+                case 1: 
+                    string nombre = Validador.LeerTexto("");
+                    fichas++; 
+                    fila.Enqueue(nombre);
+                    Console.WriteLine($"Ficha {fichas} para {nombre}");
+                    break;
+
+                case 2: 
+                    if (fila.Count > 0)
+                    {
+                        string clienteAtendido = fila.Dequeue();
+                        Console.WriteLine($"Atendiendo a {clienteAtendido}");
+                        atendidos++;
+                    }
+                    else
+                    {
+                        Console.WriteLine("No hay nadie en la fila");
+                    }
+                    break;
+
+                case 3: 
+                    Console.WriteLine($"Personas en la fila: {fila.Count}");
+                    break;
+
+                case 4: 
+                    Console.WriteLine($"Atendidos hoy: {atendidos}");
+                    break;
+            }
+
+        } while (opcionSubmenu != 4);
     }
 }
 
