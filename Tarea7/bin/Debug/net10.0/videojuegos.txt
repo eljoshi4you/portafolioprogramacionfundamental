@@ -1,0 +1,3 @@
+Super Mario World (SNES);180;4
+The Legend of Zelda Ocarina of Time (N64);250;5
+Sonic the Hedgehog (Genesis);120;8

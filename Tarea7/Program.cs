@@ -310,7 +310,44 @@ class Program
     // Ejercicio 4: Mi propia clase
     static void Ejercicio4()
     {
-        // escribe aqui tu codigo
+        List<Videojuego> inventario = new List<Videojuego>();
+
+        inventario.Add(new Videojuego("Super Mario World (SNES)", 180, 5));
+        inventario.Add(new Videojuego("The Legend of Zelda Ocarina of Time (N64)", 250, 2));
+        inventario.Add(new Videojuego("Sonic the Hedgehog (Genesis)", 120, 8));
+
+        
+        Console.WriteLine("Ingrese precio a un juego para validar:");
+        try
+        {
+            inventario[0].Precio = -10; 
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            Console.WriteLine("Error: el precio no puede ser negativo");
+        }
+
+        Console.WriteLine("\nRealizando transacciones en la tienda retro:");
+        inventario[0].Vender(1); 
+        inventario[1].Comprar(3); 
+
+        List<string> lineas = new List<string>();
+        foreach (Videojuego v in inventario)
+        {
+            lineas.Add(v.ALinea());
+        }
+        File.WriteAllLines("videojuegos.txt", lineas);
+        Console.WriteLine("\nInventario retro guardado en archivo.");
+
+        Console.WriteLine("\nLeyendo inventario desde videojuegos.txt:");
+        foreach (string linea in File.ReadAllLines("videojuegos.txt"))
+        {
+            string[] partes = linea.Split(';');
+            if (partes.Length == 3)
+            {
+                Console.WriteLine("Juego Retro: " + partes[0] + " | Precio: " + partes[1] + " Bs | Stock: " + partes[2]);
+            }
+        }
     }
 }
 
