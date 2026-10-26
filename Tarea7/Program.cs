@@ -271,7 +271,40 @@ class Program
     // Ejercicio 3: Agenda de contactos con archivo
     static void Ejercicio3()
     {
-        // escribe aqui tu codigo
+        Console.Write("Cantidad de contactos: ");
+        int cantidad = int.Parse(Console.ReadLine());
+
+        List<Contacto> contactos = new List<Contacto>();
+
+        for (int i = 0; i < cantidad; i++)
+        {
+            Console.Write("Nombre " + (i + 1) + ": ");
+            string nombre = Console.ReadLine();
+            Console.Write("Telefono " + (i + 1) + ": ");
+            string telefono = Console.ReadLine();
+
+            contactos.Add(new Contacto(nombre, telefono));
+        }
+
+        List<string> lineas = new List<string>();
+        foreach (Contacto c in contactos)
+        {
+            lineas.Add(c.ALinea());
+        }
+
+        File.WriteAllLines("contactos.txt", lineas);
+        Console.WriteLine("Contactos guardados: " + cantidad);
+
+        Console.WriteLine("Leyendo contactos.txt:");
+        string[] archivoLineas = File.ReadAllLines("contactos.txt");
+        foreach (string linea in archivoLineas)
+        {
+            string[] partes = linea.Split(';');
+            if (partes.Length == 2)
+            {
+                Console.WriteLine(partes[0] + " - Tel: " + partes[1]);
+            }
+        }
     }
 
     // Ejercicio 4: Mi propia clase
